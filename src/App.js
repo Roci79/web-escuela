@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './screens/Home';
+import About from './screens/About';
+import Blog from './screens/Blog';
+import Class from './screens/Class';
+import Contact from './screens/Contact';
+import Gallery from './screens/Gallery';
+import Team from './screens/Team';
+import NavigationBar from './components/NavigationBar';
+import Footer from './components/Footer';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='App'>
+        <NavigationBar/>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="/Class" element={<Class />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Team" element={<Team />} />
+        </Routes>
+          <Footer/>
+      </div>
+    </Router>
   );
 }
 
