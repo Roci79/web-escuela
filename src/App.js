@@ -15,7 +15,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/web-escuela">
       <div className='App'>
       <NavigationBar/>
         <Routes>
