@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Roci79.github.io/web-escuela",
+
   "name": "web-escuela",
   "version": "0.1.0",
-  "private": true,
+  "private": true, 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -21,6 +21,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",

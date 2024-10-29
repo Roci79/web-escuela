@@ -149,7 +149,7 @@ const Home = () => {
           <div className="container">
               <div className="row align-items-center">
                   <div className="col-lg-5">
-                      <img className="img-fluid rounded mb-5 mb-lg-0" src={`${process.env.PUBLIC_URL}/img/familia.png`} alt="Nosotros 1" />
+                      <img className="img-fluid rounded mb-5 mb-lg-0" src={`${process.env.PUBLIC_URL}/img/fam.png`} alt="Foto en familia" />
                   </div>
                   <div className="col-lg-7">
                       <p className="section-title pr-5"><span className="pr-2" style={{color:'#d3ad76'}}>Conocenos</span></p>
