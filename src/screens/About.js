@@ -57,14 +57,10 @@ const About = () => {
                         <p className="section-title pr-5"><span className="pr-2" style={{color:'#d3ad76'}}>Más Detalles</span></p>
                     </div>
                     <div className="mb-5">
-                       <h2 className="mb-4" style={{color:"#940013"}}>Radio Trouleira</h2>
+                       <h2 className="mb-4" style={{color:"#940013"}}>Editorial Trasno Trouleiro</h2>
                         <img className="img-fluid rounded w-50 float-right ml-4 mb-3" src={`${process.env.PUBLIC_URL}/img/edittrasno.png`} alt="Foto"/>
                         <p style={{textAlign:'justify'}}>
-                        En el CEIP de la Barquera, los niños tienen la emocionante oportunidad de participar en Radio Trouleira, una emisora escolar que les ofrece un espacio para explorar el mundo de la comunicación. En este proyecto, los alumnos no solo aprenden a expresarse verbalmente, sino que se sumergen en todo el proceso de creación radiofónica. Desde la selección de temas actuales o de interés para la comunidad escolar, hasta la redacción de guiones y la edición de sonido, los niños viven una experiencia completa en los medios de comunicación.
-
-                        La radio escolar permite que los estudiantes desarrollen su creatividad al diseñar secciones como entrevistas, noticias, reportajes, programas culturales y espacios de entretenimiento.
-
-                        Este proyecto no solo impulsa la confianza de los estudiantes para hablar en público, sino que también refuerza su capacidad de trabajar en equipo, gestionar el tiempo y resolver problemas. A través de la radio, los niños no solo comparten sus ideas, sino que también aprenden a escuchar a sus compañeros, colaborando para crear un contenido dinámico que toda la comunidad escolar disfruta. Además, esta iniciativa fortalece los vínculos con las familias, ya que los padres pueden escuchar las emisiones en un enlace publicado por el cole en su página de la Xunta, disfrutando del trabajo de sus hijos y viendo de primera mano sus logros. Radio Trouleira es, sin duda, un medio innovador que integra aprendizaje, tecnología y diversión en el día a día del colegio.</p>
+                        En el CEIP de la Barquera, los niños participan en un proyecto único a través de la Editorial Trasno Trouleiro, donde ellos mismos se convierten en escritores, ilustradores y editores de sus propios libros. Este proceso creativo comienza con la elaboración de sus historias, las cuales van dando forma mientras aprenden técnicas de escritura. A continuación, ilustran sus relatos, desarrollando tanto sus habilidades artísticas como su capacidad para visualizar sus ideas. Finalmente, maquetan y encuadernan sus obras, experimentando todo el proceso editorial. Este proyecto no solo fomenta la creatividad y el amor por la lectura, sino también el trabajo en equipo, la responsabilidad y el orgullo de crear algo completamente suyo.</p>
                         <h2 className="mb-4" style={{color:"#940013"}}>Radio Trouleira</h2>
                         <img className="img-fluid rounded w-50 float-left mr-4 mb-3" src={`${process.env.PUBLIC_URL}/img/radioTrouleira.png`} alt="Foto"/>
                         <p style={{textAlign:'justify'}}>
