@@ -44,7 +44,6 @@ const Gallery = () => {
               <Clases imgSrc={`${process.env.PUBLIC_URL}/img/g8.png`} altText="Fotaza 8" imagen={`${process.env.PUBLIC_URL}/img/g8.png`} />
               <Clases imgSrc={`${process.env.PUBLIC_URL}/img/g9.png`} altText="Fotaza 9" imagen={`${process.env.PUBLIC_URL}/img/g9.png`} />
               <Clases imgSrc={`${process.env.PUBLIC_URL}/img/g10.png`} altText="Fotaza 10" imagen={`${process.env.PUBLIC_URL}/img/g10.png`} />
-              <Clases imgSrc={`${process.env.PUBLIC_URL}/img/g10.png`} altText="Fotaza 10" imagen={`${process.env.PUBLIC_URL}/img/g10.png`} />
               <Clases imgSrc={`${process.env.PUBLIC_URL}/img/g11.png`} altText="Fotaza 11" imagen={`${process.env.PUBLIC_URL}/img/g11.png`} />
               <Clases imgSrc={`${process.env.PUBLIC_URL}/img/g12.png`} altText="Fotaza 12" imagen={`${process.env.PUBLIC_URL}/img/g12.png`} />
               <Clases imgSrc={`${process.env.PUBLIC_URL}/img/g13.png`} altText="Fotaza 13" imagen={`${process.env.PUBLIC_URL}/img/g13.png`} />
