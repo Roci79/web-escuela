@@ -43,7 +43,7 @@ const Team = () => {
         </div>
     );
 
-    const Carousel = ({ texto, imgSrc, altText, name, oficio }) => (
+    const Carousel = ({ texto, imgSrc, altText, name, profesion }) => (
            <div className="testimonial-item px-3">
               <div className="bg-light shadow-sm rounded mb-4 p-4">
                 <h3 className="fas fa-quote-left text-primary mr-3"><span className="sr-only"></span></h3>
@@ -53,7 +53,7 @@ const Team = () => {
                 <img className="rounded-circle" src={imgSrc} style={{width: '70px', height: '70px'}} alt={altText}/>
                     <div className="pl-3">
                         <h5>{name}</h5>
-                        <i>{oficio}</i>
+                        <i>{profesion}</i>
                     </div>
               </div>
             </div>

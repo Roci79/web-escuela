@@ -95,7 +95,7 @@ const Home = () => {
         </div>
 
     );
-    const Carousel = ({ texto, imgSrc, altText, name, oficio }) => (
+    const Carousel = ({ texto, imgSrc, altText, name, profesion }) => (
         <div className="testimonial-item px-3">
            <div className="bg-light shadow-sm rounded mb-4 p-4">
              <h3 className="fas fa-quote-left text-primary mr-3"><span className="sr-only"></span></h3>
@@ -105,7 +105,7 @@ const Home = () => {
              <img className="rounded-circle" src={imgSrc} style={{width: '70px', height: '70px'}} alt={altText}/>
                  <div className="pl-3">
                      <h5>{name}</h5>
-                     <i>{oficio}</i>
+                     <i>{profesion}</i>
                  </div>
            </div>
          </div>
@@ -117,7 +117,7 @@ const Home = () => {
           <div className="row align-items-center px-3">
               <div className="col-lg-6 text-center text-lg-left" style={{marginLeft: '0px'}}>
                   <h4 className=" mb-4 mt-5 mt-lg-0" style={{color:'#563d26'}}>CEIP A Barqueira</h4>
-                  <h1 className="display-3 font-weight-bold " style={{color:'#563d26'}}>Exploramos, aprendemos, crecemos juntos</h1>
+                  <h1 className="display-3 font-weight-bold " style={{color:'#563d26'}}>Exploramos, aprendemos, crecemos juntos.</h1>
                   <p style={{ textAlign: 'justify', color:'#563d26' }} className=" mb-4" >En nuestro centro, ofrecemos una educación innovadora y cercana, basada en proyectos, que permite a los niños aprender de manera activa y práctica.
                      Con un enfoque personalizado, nuestras clases están organizadas en grupos reducidos de dos niveles, promoviendo el aprendizaje colaborativo entre diferentes edades. 
                      Además, aprovechamos al máximo nuestro entorno con actividades en un huerto escolar y frecuentes excursiones, donde los alumnos exploran y descubren el mundo que los rodea. 
