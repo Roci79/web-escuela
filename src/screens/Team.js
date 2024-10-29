@@ -85,7 +85,7 @@ const Team = () => {
               <TeamMember name="Carmen" imgSrc={`${process.env.PUBLIC_URL}/img/carmen.png`} altText="Foto de la profesor Carmen" />
               <TeamMember name="Lidia" imgSrc={`${process.env.PUBLIC_URL}/img/lidia.png`} altText="Foto de la profesor Lidia" />
               <TeamMember name="Clara" imgSrc={`${process.env.PUBLIC_URL}/img/clara.png`} altText="Foto de la profesora Clara" />
-              <TeamMember name="Raquel" imgSrc={`${process.env.PUBLIC_URL}/img/raquel.png`} altText="Foto de la profesora Raquel" />
+              <TeamMember name="Raquel" imgSrc={`${process.env.PUBLIC_URL}/img/raquel2.png`} altText="Foto de la profesora Raquel" />
               </div>
           </div>
       </div>
@@ -109,9 +109,9 @@ const Team = () => {
         
             <Slider {...settings} className="post-carousel testimonial-carousel">
             <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/madre2.png`} altText="Foto de Lourdes" name="Lourdes" profesion="Enfermera" />
-            <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/papa1.png`} altText="Foto de Eduardo" name="Eduardo" profesion="Modelo" />
-            <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/madre1.png`} altText="Foto de Lucía" name="Lucía" profesion="Podóloga" /> 
-            <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/papa2.png`} altText="Foto de Martín" name="Martín" profesion="Empresario" />
+            <Carousel texto="Valoro mucho las extraescolares, mis hijos disfrutan aprendiendo y divirtiéndose al mismo tiempo." imgSrc={`${process.env.PUBLIC_URL}/img/papa1.png`} altText="Foto de Eduardo" name="Eduardo" profesion="Modelo" />
+            <Carousel texto="Los profesores son excepcionales, siempre atentos y comprometidos con el aprendizaje de mis hijos" imgSrc={`${process.env.PUBLIC_URL}/img/madre1.png`} altText="Foto de Lucía" name="Lucía" profesion="Podóloga" /> 
+            <Carousel texto="El ambiente familiar hace que los niños se sientan bienvenidos y seguros, creando una comunidad cercana." imgSrc={`${process.env.PUBLIC_URL}/img/papa2.png`} altText="Foto de Martín" name="Martín" profesion="Empresario" />
             </Slider>
         </div>    
       </div>

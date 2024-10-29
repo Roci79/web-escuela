@@ -122,6 +122,8 @@ const Home = () => {
                      Con un enfoque personalizado, nuestras clases están organizadas en grupos reducidos de dos niveles, promoviendo el aprendizaje colaborativo entre diferentes edades. 
                      Además, aprovechamos al máximo nuestro entorno con actividades en un huerto escolar y frecuentes excursiones, donde los alumnos exploran y descubren el mundo que los rodea. 
                      Con solo 49 alumnos, cada niño es conocido, valorado y guiado de manera individual, fomentando su crecimiento integral y su conexión con la naturaleza y la comunidad.</p>
+                     <br/>
+                     <p style={{fontSize:"11px"}}>Música para acompañar este descubrimiento educativo.</p>
                      <MusicButton />
               </div>
               <div className="col-lg-6 text-center text-lg-right">
@@ -215,9 +217,9 @@ const Home = () => {
           
             <Slider {...settings} className="post-carousel testimonial-carousel">
             <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/madre2.png`} altText="Foto de Lourdes" name="Lourdes" profesion="Enfermera" />
-            <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/papa1.png`} altText="Foto de Eduardo" name="Eduardo" profesion="Modelo" />
-            <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/madre1.png`} altText="Foto de Lucía" name="Lucía" profesion="Podóloga" /> 
-            <Carousel texto="Estoy muy satisfecha con el colegio, así que matriculé a mi segundo hijo sin dudarlo." imgSrc={`${process.env.PUBLIC_URL}/img/papa2.png`} altText="Foto de Martín" name="Martín" profesion="Empresario" />
+            <Carousel texto="Valoro mucho las extraescolares, mis hijos disfrutan aprendiendo y divirtiéndose al mismo tiempo." imgSrc={`${process.env.PUBLIC_URL}/img/papa1.png`} altText="Foto de Eduardo" name="Eduardo" profesion="Modelo" />
+            <Carousel texto="Los profesores son excepcionales, siempre atentos y comprometidos con el aprendizaje de mis hijos." imgSrc={`${process.env.PUBLIC_URL}/img/madre1.png`} altText="Foto de Lucía" name="Lucía" profesion="Podóloga" /> 
+            <Carousel texto="El ambiente familiar hace que los niños se sientan bienvenidos y seguros, creando una comunidad cercana." imgSrc={`${process.env.PUBLIC_URL}/img/papa2.png`} altText="Foto de Martín" name="Martín" profesion="Empresario" />
             </Slider>
         </div>
     </div>

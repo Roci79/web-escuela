@@ -5,7 +5,7 @@ import { Howl } from 'howler';
 
 const sound = new Howl({
   src: [`${process.env.PUBLIC_URL}/audio/musicaFondo.mp3`],
-  volume: 0.5,
+  volume: 0.9,
   loop: true,
 });
 
