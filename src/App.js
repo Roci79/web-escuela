@@ -17,6 +17,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
+      <NavigationBar/>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
@@ -25,8 +26,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Team" element={<Team />} />
-        </Routes>
-          <NavigationBar/>
+        </Routes>  
           <Footer/>
       </div>
     </Router>
