@@ -96,7 +96,7 @@ const Team = () => {
                   <h1 className="mb-4" style={{color:"#940013"}}>Conoce a nuestro Cocinero</h1>
               </div>
               <div className="row justify-content-center">
-              <TeamMember name="Riqui" imgSrc={`${process.env.PUBLIC_URL}/img/cocinero.png`} altText="Foto cocinero Riqui" />
+              <TeamMember name="Riqui" imgSrc={`${process.env.PUBLIC_URL}/img/cocinero2.png`} altText="Foto cocinero Riqui" />
              </div>
          </div>
       </div>
