@@ -62,7 +62,7 @@ const Team = () => {
 
   return (
     <div>
-      <div className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
+      <div id="top" className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
           <div className="d-flex flex-column align-items-center justify-content-center" style={{minHeight: '400px'}}>
               <h3 className="display-3 font-weight-bold" style={{color:'#563d26'}}>Nuestro Equipo</h3>
               <div className="d-inline-flex" style={{color:'#563d26'}}>

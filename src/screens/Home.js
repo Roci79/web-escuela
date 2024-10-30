@@ -237,7 +237,7 @@ const Home = () => {
               </div>
           </div>
       </div>
-      {/* <a href="#top" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></a> */}
+      <a href="#top" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></a>
     </div>
   )
 }
