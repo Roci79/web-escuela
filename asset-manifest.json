@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-escuela/static/css/main.bd16d1b3.css",
-    "main.js": "/web-escuela/static/js/main.5c9509f7.js",
+    "main.js": "/web-escuela/static/js/main.69c2c1d2.js",
     "static/js/453.5fdf95de.chunk.js": "/web-escuela/static/js/453.5fdf95de.chunk.js",
     "static/media/slick.svg": "/web-escuela/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/web-escuela/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "index.html": "/web-escuela/index.html",
     "static/media/slick.woff": "/web-escuela/static/media/slick.295183786cd8a1389865.woff",
     "main.bd16d1b3.css.map": "/web-escuela/static/css/main.bd16d1b3.css.map",
-    "main.5c9509f7.js.map": "/web-escuela/static/js/main.5c9509f7.js.map",
+    "main.69c2c1d2.js.map": "/web-escuela/static/js/main.69c2c1d2.js.map",
     "453.5fdf95de.chunk.js.map": "/web-escuela/static/js/453.5fdf95de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd16d1b3.css",
-    "static/js/main.5c9509f7.js"
+    "static/js/main.69c2c1d2.js"
   ]
 }
