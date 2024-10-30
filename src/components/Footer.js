@@ -71,8 +71,8 @@ const Footer = () => {
       </div>
       <div className="container-fluid pt-5" style={{ borderTop: '1px solid white' }}>
         <p className="m-0 text-center text-white">
-          &copy; <Link to="/" className=" font-weight-bold" style={{color:'#d3ad76'}}>CEIP Da Barqueira</Link>. All Rights Reserved. Designed by
-          <Link to="/" className=" font-weight-bold" style={{color:'#d3ad76'}}> Rocío MF</Link>
+          &copy; <Link to="https://www.edu.xunta.gal/centros/ceipbarqueira/" className=" font-weight-bold" style={{color:'#d3ad76', textDecoration:"none"}}>CEIP Da Barqueira</Link>. All Rights Reserved. Designed by
+          <Link to="https://www.linkedin.com/in/rociomartinezfustes/" className=" font-weight-bold" style={{color:'#d3ad76', textDecoration:"none"}}> Rocío MF</Link>
         </p>
       </div>
     </div>
