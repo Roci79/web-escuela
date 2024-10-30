@@ -126,13 +126,13 @@ const Home = () => {
                      <p style={{fontSize:"11px"}}>Música para acompañar este descubrimiento educativo.</p>
                      <MusicButton />
               </div>
-              <div className="col-lg-6 text-center text-lg-right">
+              <div className="col-lg-6 text-center text-lg-right" id="top">
                   <img className="img-fluid mt-5" src={`${process.env.PUBLIC_URL}/img/DosFondo1.png`} alt="Encabezado" style={{width:'700px', height:'600px'}} />        
               </div>
           </div>
       </div>
   
-      <div className="container-fluid pt-5">
+      <div className="container-fluid pt-5 ">
           <div className="container pb-3">
               <div className="row">
               <Cuadrados name="Zona de Juegos" texto="Rodeado de naturaleza, nuestro colegio invita a los niños a disfrutar y explorar en un entorno natural con áreas de juego y espacios al aire libre, fomentando su desarrollo físico y emocional" />
@@ -237,7 +237,7 @@ const Home = () => {
               </div>
           </div>
       </div>
-      <a href="/" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></a>
+      {/* <a href="#top" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></a> */}
     </div>
   )
 }
