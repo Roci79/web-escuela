@@ -16,7 +16,7 @@ const Class = () => {
 
   return (
     <div>
-      <div id="top" className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
+      <div className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
             <div className="d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '400px'}}>
                 <h3 className="display-3 font-weight-bold" style={{color:'#563d26'}}>Nuestras clases </h3>
                 <div className="d-inline-flex" style={{color:'#563d26'}}>
@@ -59,7 +59,7 @@ const Class = () => {
               </div>
         </div>
       </div>
-      <a href="#top" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></a>
+      <Link to="/Class" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></Link>
     </div>
   )
 }

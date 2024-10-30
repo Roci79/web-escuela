@@ -115,7 +115,7 @@ const Team = () => {
             </Slider>
         </div>    
       </div>
-      <a href="/Team" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></a>
+      <Link to="/Team" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></Link>
     </div>
   );
 }

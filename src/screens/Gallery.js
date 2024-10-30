@@ -17,7 +17,7 @@ const Gallery = () => {
     
   return (
     <div>
-        <div id="top" className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
+        <div className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
           <div className="d-flex flex-column align-items-center justify-content-center" style={{minHeight: '400px'}}>
               <h3 className="display-3 font-weight-bold" style={{color:'#563d26'}}>Gallery</h3>
               <div className="d-inline-flex" style={{color:'#563d26'}}>
@@ -80,7 +80,7 @@ const Gallery = () => {
               </div>
           </div>
       </div>
-      <a href="#top" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></a>
+      <Link to="/Gallery" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></Link>
     </div>
   )
 }
