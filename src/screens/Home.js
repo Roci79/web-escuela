@@ -113,7 +113,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className="container-fluid px-0 px-md-5 mb-5" style={{background: '#EFE4D7' }}>
+      <div id='top' className="container-fluid px-0 px-md-5 mb-5" style={{background: '#EFE4D7' }}>
           <div className="row align-items-center px-3">
               <div className="col-lg-6 text-center text-lg-left" style={{marginLeft: '0px'}}>
                   <h4 className=" mb-4 mt-5 mt-lg-0" style={{color:'#563d26'}}>CEIP A Barqueira</h4>
@@ -237,7 +237,7 @@ const Home = () => {
               </div>
           </div>
       </div>
-      <Link to="/Home" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></Link>
+      <Link to="#top" className="btn btn-primary p-3 back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><i className="fa fa-angle-double-up"></i></Link>
     </div>
   )
 }

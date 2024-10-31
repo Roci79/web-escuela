@@ -28,7 +28,7 @@ const Blog = () => {
 
   return (
     <div>
-         <div className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
+         <div id="top" className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
             <div className="d-flex flex-column align-items-center justify-content-center" style={{minHeight: "400px"}}>
                 <h3 className="display-3 font-weight-bold" style={{color:'#563d26'}}>Blog</h3>
                 <div className="d-inline-flex" style={{color:'#563d26'}}>
@@ -111,7 +111,7 @@ const Blog = () => {
                 </div>
             </div>
         </div>
-         <Link to="/Blog" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></Link>
+        <Link to="#top" className="btn btn-primary p-3 back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><i className="fa fa-angle-double-up"></i></Link>
     </div>
   )
 }

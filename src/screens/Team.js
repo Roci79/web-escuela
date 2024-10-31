@@ -115,7 +115,7 @@ const Team = () => {
             </Slider>
         </div>    
       </div>
-      <Link to="/Team" className="btn btn-primary p-3 back-to-top"><i className="fa fa-angle-double-up"></i></Link>
+      <Link to="#top" className="btn btn-primary p-3 back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><i className="fa fa-angle-double-up"></i></Link>
     </div>
   );
 }
