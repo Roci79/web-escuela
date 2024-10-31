@@ -27,8 +27,8 @@ const Blog = () => {
       }, [location]);
 
   return (
-    <div>
-         <div id="top" className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
+    <div id="top">
+         <div  className="container-fluid mb-5" style={{background: '#EFE4D7' }}>
             <div className="d-flex flex-column align-items-center justify-content-center" style={{minHeight: "400px"}}>
                 <h3 className="display-3 font-weight-bold" style={{color:'#563d26'}}>Blog</h3>
                 <div className="d-inline-flex" style={{color:'#563d26'}}>
