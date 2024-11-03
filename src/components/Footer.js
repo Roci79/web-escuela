@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="container-fluid text-white mt-5 py-5 px-sm-3 px-md-5" style={{background:'#746249'}} >
       <div className="row pt-5">
         <div className="col-lg-3 col-md-6 mb-5">
-          <Link to="/" className="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style={{ fontSize: '40px', lineHeight: '40px' }}>
+          <Link to="/" className="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style={{ fontSize: '40px', lineHeight: '40px' }} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <img src={`${process.env.PUBLIC_URL}/img/trasno.png`} alt="Logo" style= {{width: '45px', height: '55px', marginBottom: '8px', marginRight: '8px'}}/>
             <span className="text-white">CEIP A Barqueira</span>
           </Link>
