@@ -181,8 +181,8 @@ const Home = () => {
                   <h1 className="mb-4" style={{color:'#940215'}}>Las Clases del Centro</h1>
               </div>
               <div className="row">
-              <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/clsInfantil.png`} altText="Foto de la clase Infantil" cursos={"1º y 2º Infantil"} 
-              textoCarta={"En 1-2 de Infantil, los niños exploran, juegan y descubren en un ambiente acogedor, aprendiendo a través de actividades divertidas y creativas."} edad={"3-5 años"} numNiños={"6"} />
+              <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/clsInfantil.png`} altText="Foto de la clase Infantil" cursos={"4º,5º y 6º Infantil"} 
+              textoCarta={"En 4-5-6 de Infantil, los niños exploran, juegan y descubren en un ambiente acogedor, aprendiendo a través de actividades divertidas y creativas."} edad={"3-5 años"} numNiños={"6"} />
               <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/primero-2.png`} altText="Foto de la clase Infantil" cursos={"1º y 2º Primaria"} 
               textoCarta={"En 1-2 de Primaria, los niños comienzan a fortalecer sus habilidades de lectura y matemáticas en un ambiente cercano y motivador."} edad={"5-8 años"} numNiños={"9"} />
               <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/cls3-4.png`} altText="Foto de la clase 3-4 primaria" cursos={"3º y 4º Primaria"} 
