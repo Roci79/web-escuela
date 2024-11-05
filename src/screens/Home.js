@@ -183,11 +183,11 @@ const Home = () => {
               <div className="row">
               <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/clsInfantil.png`} altText="Foto de la clase Infantil" cursos={"4º,5º y 6º Infantil"} 
               textoCarta={"En 4-5-6 de Infantil, los niños exploran, juegan y descubren en un ambiente acogedor, aprendiendo a través de actividades divertidas y creativas."} edad={"3-5 años"} numNiños={"6"} />
-              <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/primero-2.png`} altText="Foto de la clase Infantil" cursos={"1º y 2º Primaria"} 
+              <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/primero-2.png`} altText="Foto de la clase 1-2 primaria " cursos={"1º y 2º Primaria"} 
               textoCarta={"En 1-2 de Primaria, los niños comienzan a fortalecer sus habilidades de lectura y matemáticas en un ambiente cercano y motivador."} edad={"5-8 años"} numNiños={"9"} />
               <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/cls3-4.png`} altText="Foto de la clase 3-4 primaria" cursos={"3º y 4º Primaria"} 
               textoCarta={"En 3-4 de Primaria, los alumnos desarrollan su autonomía mientras avanzan en proyectos colaborativos y actividades de aprendizaje práctico."} edad={"8-10 años"} numNiños={"13"} />
-              <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/cls5-6.png`} altText="Foto de la clase 3-4 primaria" cursos={"5º y 6º Primaria"} 
+              <Cartas imgSrc={`${process.env.PUBLIC_URL}/img/cls5-6.png`} altText="Foto de la clase 5-6 primaria" cursos={"5º y 6º Primaria"} 
               textoCarta={"En 5-6 de Primaria, los estudiantes se preparan para nuevos retos con proyectos que desarrollan el pensamiento crítico y la responsabilidad."} edad={"10-12 años"} numNiños={"6"} />
               </div>
           </div>
